@@ -1,0 +1,18 @@
+#Inputfield_admin_column_right {
+	float: right;
+}
+
+#Inputfield_admin_column_left, #Inputfield_admin_column_right {
+	display: inline-block;
+	clear: none;
+	margin-top: 0;
+}
+
+#Inputfield_admin_column_left > label, #Inputfield_admin_column_right > label {
+	display: none;
+}
+#Inputfield_admin_column_left > div, #Inputfield_admin_column_right > div {
+	background: none;
+	border: none;
+	padding: 0;
+}
