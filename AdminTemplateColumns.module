@@ -72,7 +72,7 @@ class AdminTemplateColumns extends ModuleJS implements Module {
 			
 		}
 		
-		if(!$this->fields->get('admin_column_right_END')) {
+		if(!$this->fields->get('admin_column_left_END')) {
 			
 			$field = new Field();
 			$field->type = $this->modules->get("FieldtypeFieldsetClose");
