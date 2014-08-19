@@ -23,7 +23,7 @@ class AdminTemplateColumns extends ModuleJS implements Module {
 			'title' => 'Admin Template Columns', 
 
 			// version: major, minor, revision, i.e. 100 = 1.0.0
-			'version' => 100, 
+			'version' => 101, 
 
 			// summary is brief description of what this module is
 			'summary' => 	"Adds left and right column fieldsets to use in any admin templates and applies styling to remove their borders and padding",
