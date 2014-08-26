@@ -41,7 +41,7 @@ class AdminTemplateColumns extends ModuleJS implements Module {
 			// This is necessary for any modules that attach runtime hooks, otherwise those
 			// hooks won't get attached unless some other code calls the module on it's own.
 			// Note that autoload modules are almost always also 'singular' (seen above).
-			'autoload' => 'template=admin'', 
+			'autoload' => 'template=admin', 
 			);
 	}
 
